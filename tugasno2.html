@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <title>ini tugas object no 2</title>
+    <body>
+
+        <script>
+
+            var jualMobil = {
+                iklan: function(){
+                    document.write('BU, saya '+ this.nama + ', jual mobil  '+this.merek+  ', tahun ' +this.tahun+ ', bekas')
+                }
+            };
+
+            var a = Object.create(jualMobil);
+            a.nama = 'Tompel';
+            a.merek= 'Avanza';
+            a.tahun= 2017;
+            a.iklan();
+
+        </script>
+    </body>
+</html>

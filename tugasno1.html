@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>ini tugas object</title>
+
+<body>
+    
+    <script>
+
+        var sepeda={
+              jenis:'trail',
+              berat:5,
+              warna:'hitam',
+              kayuh:function (){
+                  return'sepeda melaju'
+              },
+              rem:function(){
+                return'sepeda berhenti'
+          }
+          }
+
+            document.write(sepeda.kayuh()+"</br>")
+
+        var handphone={
+            merek:'samsung',
+            jenis: 's20',
+            warna: 'biru',
+            berat: 500,
+            bateraiPenuh: function(){
+                return'siap digunakan'
+            },
+            lowbat:function(){
+                return'harus di charge'
+            }
+            }
+            document.write(handphone.lowbat()+"</br>")
+
+        var tv = {
+            merek: "sharp",
+            jenis: "LED",
+            ukuran: 50,
+            berat: '5 kg',
+            powerOn: function(){
+                return'tv menyala'
+            },
+            powerOff: function(){
+                return'tv mati'
+            }
+            }
+            document.write(tv.powerOn()+"</br>")
+
+        var lampu = {
+            merek: "philips",
+            jenis: "LED",
+            warna: "putih",
+            berat: 60,
+            klikOn: function(){
+                return'lampu menyala'
+            },
+            klikOff: function(){
+                return'lampu padam'
+            }
+            }
+            document.write(lampu.klikOff()+"</br>")
+
+        var internet= {
+            aplikasi: "youtube",
+            jenis: "media sosial",
+            online: function(){
+                return'anda terhubung'
+            },
+            offline: function(){
+                return'mohon maaf anda sedang offline'
+            }
+            }
+            document.write(internet.offline()+"</br>")
+
+        </script>
+</body>
+</html>
